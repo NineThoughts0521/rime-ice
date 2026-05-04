@@ -1,0 +1,12 @@
+patch:
+  # --- 核心交互微调 ---
+  "menu/page_size": 5           # 候选词个数（5或6最顺手）
+  "style/horizontal": true      # true 为横排，false 为竖排列表
+  "style/inline_preedit": true  # 拼音字母嵌在输入框里（非常现代的做法）
+
+  # --- 视觉与字体微调 ---
+  "style/font_face": "霞鹜文楷, Microsoft YaHei"  # 首选字体，如果没装就回退到雅黑
+  "style/font_point": 14        # 候选汉字的字号
+  "style/label_font_point": 12  # 前面 12345 序号的字号（稍微小一点更有层次感）
+  "style/corner_radius": 6      # 给背景框加一点圆角，看起来更现代
+  
